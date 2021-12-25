@@ -1,9 +1,50 @@
-body {
+*{
   margin: 0;
-   font-family: 'Inter', sans-serif;
-  
+  /* padding: 0; */
 }
-
-h1{
-  color: red;
+body {
+   font-family: 'Inter', sans-serif;
+   background-color: #282D35;
+}
+.nav-logo{
+  width: 60px;
+  margin-right: 10px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 50px;
+  padding: 30px 25px;
+}
+.nav-logo_text, .nav-title{
+  margin: 0;
+}
+.nav-logo_text{
+  margin-right: auto;
+  color:  #61DAFB;;
+  font-size: 25px;
+}
+.nav-title{
+  color: #fff;
+}
+main{
+  padding: 55px 25px;
+  color: #fff;
+}
+.main-title{
+  margin:  auto;
+  font-size: 40px;
+}
+.main-facts{
+  margin-top: 40px;
+  max-width: 450px;
+}
+.main-facts>li{
+  line-height: 35px;
+  font-size: 20px;
+}
+.main-facts>li::marker{
+  font-size: 1.6rem;
+  color: #61DAFB;
 }
